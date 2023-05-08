@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <link rel="shortcut icon" href="\img\logo-alura.png" type="image/x-icon">
+
+
+        <title> Decodificação </title>
+    
+        
+    </head>
+
+    <body>
+        <header>
+            <h1>
+                <a href="index.html" title="Home">
+                    <img src="img/logo-alura.png" alt="Logo da Alura."
+                    width="120" height="48" id="logo">
+                </a>
+            </h1>     
+        </header>
+
+        <main class="main">
+            <section>
+                <textarea class="input-texto" cols="40" rows="9" placeholder="Digite seu texto..."></textarea>
+
+                <div class="informacao">
+                    <ul class="mensagens-erro"></ul>
+                </div>
+
+                <div class="botoes">
+                    <button type="button" class="btn-codificar"> Criptografar </button>
+                    <button type="button" class="btn-decodificar"> Decriptografar </button>
+                </div>
+            </section>
+
+            <section class="container">
+                <textarea class="resultado" cols="20" rows="11" placeholder=" " readonly></textarea>
+                <button type="button" class="invisivel btn-copiar">Copiar</button>
+            </section>
+        </main>
+
+        <script src="js/criptografia.js"></script>
+        <script  type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> 
+        <script script  nomodule  src = "https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        
+        
+    </body>
+</html>
